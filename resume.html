@@ -9,47 +9,40 @@
             background-color: linen;
             color:black;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
         }
         header {
-            display:flex;
-            justify-content: space-evenly;
+            display: flex;
+            flex-direction: row;
+            justify-items: space-between;
+            align-self: center;
+            flex-wrap: wrap;
             border: 5%;
         }
-        .column-1{
-            display: flex;
-            justify-content: center;
-        }
-        .column-2{
-            display: flex;
-            justify-content: center;
-        }
-
-        .proAch{
-
-        }
-        .workHist{
-
-        }
-        .ed {
-
+        .column{
+            margin: 10px;
+            
         }
         img {
             width: 150px;
-            float: right;
+            padding: 10px;
         }
     </style>
     <body>
         <header>
-            <div style="column-1">
+            <div class="column">
                 <h1>Andrew Carey</h1>
                 <h4>3878 McKnight Rd N, White Bear Lake, MN 55110</h4>
             </div>
-            <div style="column-1">
+            <div class="column">
                 <h4>651-367-4099</h4>
                 <h4>andrew.r.carey@gmail.com</h4>
             </div>
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFQ288loLc5Cg/profile-displayphoto-shrink_800_800/0/1655941282252?e=1664409600&v=beta&t=7Z4zePmm-LWxEHEpgMZSAIsX784C2AwXT2T2iGYoNeo">
-            
+            <div>
+                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFQ288loLc5Cg/profile-displayphoto-shrink_800_800/0/1655941282252?e=1664409600&v=beta&t=7Z4zePmm-LWxEHEpgMZSAIsX784C2AwXT2T2iGYoNeo">
+            </div>
 
         </header>
         <div class="proAch">
